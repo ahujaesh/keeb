@@ -2122,6 +2122,89 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Seeed_Studio_XIAO_Series:XIAO-nRF52840-SMD"
 			(pin_names
 				(offset 1.016)
@@ -2847,6 +2930,16 @@
 		)
 		(uuid "00de68a8-e479-4268-a83d-c69d4ca1d093")
 	)
+	(text "mousebites"
+		(exclude_from_sim no)
+		(at 248.412 118.618 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "03cbd3ff-a1f2-4515-bfa9-e5dba6801107")
+	)
 	(text "4"
 		(exclude_from_sim no)
 		(at 240.792 42.926 0)
@@ -3107,6 +3200,16 @@
 		)
 		(uuid "ac033684-bdf7-4ac4-9b74-1ef4d449f6da")
 	)
+	(text "mounting holes"
+		(exclude_from_sim no)
+		(at 206.502 118.872 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b778ba6c-d109-4327-8a72-2e3811f04c0a")
+	)
 	(text "Battery"
 		(exclude_from_sim no)
 		(at 109.982 25.4 0)
@@ -3204,12 +3307,6 @@
 		(uuid "058f4fa6-66bd-451b-b67f-9ea2ae3ba15b")
 	)
 	(junction
-		(at 213.36 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1156278f-e5aa-464c-9cc2-ab5ee57f2723")
-	)
-	(junction
 		(at 226.06 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3220,6 +3317,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1cbc40fc-7376-4c41-9185-91d15292d646")
+	)
+	(junction
+		(at 213.36 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21407c9f-cb65-4c15-83ce-b6ffec6030cd")
 	)
 	(junction
 		(at 243.84 59.69)
@@ -3244,12 +3347,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3c96da62-cff5-46be-a3b5-f0988731182a")
-	)
-	(junction
-		(at 193.04 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4af2fc00-6ff0-4ad4-98dd-4eeb6376d2dd")
 	)
 	(junction
 		(at 212.09 48.26)
@@ -3424,6 +3521,130 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb53e537-e1e5-4d0b-be5b-6840db3f7bf9")
+	)
+	(no_connect
+		(at 165.1 45.72)
+		(uuid "3555cc8c-b675-47c0-8fac-da4ced03e21e")
+	)
+	(no_connect
+		(at 165.1 130.81)
+		(uuid "3a3e7887-53a0-4bc4-ae4d-90fb525cf4a4")
+	)
+	(no_connect
+		(at 22.86 148.59)
+		(uuid "3bf146b1-ab4e-4002-bf2a-2d8695fddd79")
+	)
+	(no_connect
+		(at 40.64 180.34)
+		(uuid "4d113af4-f772-4a89-8f2a-1051d6cdf167")
+	)
+	(no_connect
+		(at 35.56 81.28)
+		(uuid "4e35982e-e70c-437e-90a0-3bf73a235928")
+	)
+	(no_connect
+		(at 165.1 135.89)
+		(uuid "52707c86-6028-4a14-b8a7-788b65b34c8c")
+	)
+	(no_connect
+		(at 151.13 26.67)
+		(uuid "527ddf89-447b-4002-861c-f4fb570649d8")
+	)
+	(no_connect
+		(at 152.4 71.12)
+		(uuid "55ec79b2-590f-43be-a429-4ed337add095")
+	)
+	(no_connect
+		(at 22.86 143.51)
+		(uuid "58ab6815-c46c-4571-8d52-da4fa0a008ac")
+	)
+	(no_connect
+		(at 165.1 140.97)
+		(uuid "5e8aa411-eb8b-4369-8d2d-8fc4d836e76f")
+	)
+	(no_connect
+		(at 165.1 143.51)
+		(uuid "6820693b-ac41-4dae-a136-244397249141")
+	)
+	(no_connect
+		(at 58.42 50.8)
+		(uuid "6a632340-341d-4baf-bccc-b09638d4b0e8")
+	)
+	(no_connect
+		(at 22.86 138.43)
+		(uuid "6e217270-f7e5-4f05-b992-c0e83dc54506")
+	)
+	(no_connect
+		(at 165.1 38.1)
+		(uuid "7076d992-622d-4589-842a-04b79b008cc1")
+	)
+	(no_connect
+		(at 165.1 115.57)
+		(uuid "731987a4-e257-416d-996d-eba1f8221f59")
+	)
+	(no_connect
+		(at 147.32 71.12)
+		(uuid "7c161490-bf27-4542-b223-3e5dd0aa5469")
+	)
+	(no_connect
+		(at 165.1 146.05)
+		(uuid "804d833f-25e8-46e1-beb4-68a8e872b643")
+	)
+	(no_connect
+		(at 73.66 180.34)
+		(uuid "95d34b83-10ba-4db8-bc5c-7279f8d8ee32")
+	)
+	(no_connect
+		(at 147.32 26.67)
+		(uuid "96735d49-163b-4847-ba7b-29b662a1818f")
+	)
+	(no_connect
+		(at 165.1 113.03)
+		(uuid "98f2f34c-27a2-4413-827d-7fbeeb4391a3")
+	)
+	(no_connect
+		(at 165.1 118.11)
+		(uuid "9ebdbd96-6fd5-44af-a673-3538730cb4ec")
+	)
+	(no_connect
+		(at 143.51 26.67)
+		(uuid "9fed4352-a653-4037-817f-2aa5cc1a72a8")
+	)
+	(no_connect
+		(at 139.7 26.67)
+		(uuid "b37ae8ef-4e1b-41f8-b406-59f4b1e103cb")
+	)
+	(no_connect
+		(at 165.1 138.43)
+		(uuid "b62e598a-da37-4a4a-b7df-82f358080213")
+	)
+	(no_connect
+		(at 22.86 118.11)
+		(uuid "c15565ea-4a2b-4c26-a7e9-f05f701d9577")
+	)
+	(no_connect
+		(at 22.86 135.89)
+		(uuid "c4facd7a-2d3f-428f-8049-d23ee2805bf8")
+	)
+	(no_connect
+		(at 58.42 48.26)
+		(uuid "cf5814f0-51fd-4438-8cb6-bad583c07f33")
+	)
+	(no_connect
+		(at 22.86 133.35)
+		(uuid "d4bafab7-e5df-452c-b89f-64ffb8abcf1a")
+	)
+	(no_connect
+		(at 22.86 140.97)
+		(uuid "f02580e2-59f6-4ce6-b879-2c823167c96e")
+	)
+	(no_connect
+		(at 165.1 120.65)
+		(uuid "f67f4d9d-e642-418e-a87d-2d7ceac25965")
+	)
+	(no_connect
+		(at 22.86 146.05)
+		(uuid "fdd98b6f-85ae-45ea-83a2-d9726db3b4e7")
 	)
 	(wire
 		(pts
@@ -3724,16 +3945,6 @@
 			(type default)
 		)
 		(uuid "35bfc260-ef80-4112-a37c-4deca4ab8758")
-	)
-	(wire
-		(pts
-			(xy 194.31 104.14) (xy 194.31 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c414838-c769-48ed-ad25-4926da87aac2")
 	)
 	(wire
 		(pts
@@ -4187,16 +4398,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 105.41) (xy 213.36 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab64bc60-7239-4d45-b95f-dc6f0361fb14")
-	)
-	(wire
-		(pts
 			(xy 248.92 69.85) (xy 250.19 69.85)
 		)
 		(stroke
@@ -4214,6 +4415,16 @@
 			(type default)
 		)
 		(uuid "b68ce5d3-db03-4bac-b79c-bf08f57a07e9")
+	)
+	(wire
+		(pts
+			(xy 193.04 105.41) (xy 213.36 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba087ee6-cd34-4c02-8fb9-1bf8a3e97360")
 	)
 	(wire
 		(pts
@@ -4284,16 +4495,6 @@
 			(type default)
 		)
 		(uuid "c8d9bd5c-f0ac-474c-a5b0-172173e903af")
-	)
-	(wire
-		(pts
-			(xy 213.36 105.41) (xy 213.36 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca271a0c-f585-4dcd-90db-52da837ff3bf")
 	)
 	(wire
 		(pts
@@ -4467,16 +4668,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 104.14) (xy 214.63 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ede618eb-2fe6-4e4a-b646-b68112c849c0")
-	)
-	(wire
-		(pts
 			(xy 193.04 49.53) (xy 212.09 49.53)
 		)
 		(stroke
@@ -4487,16 +4678,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 105.41) (xy 193.04 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eec3e0ba-ed24-48f6-8bf6-cca4815f93bc")
-	)
-	(wire
-		(pts
 			(xy 227.33 76.2) (xy 242.57 76.2)
 		)
 		(stroke
@@ -4504,16 +4685,6 @@
 			(type default)
 		)
 		(uuid "ef010cff-c992-438a-a1c6-553e1d7a35e9")
-	)
-	(wire
-		(pts
-			(xy 193.04 104.14) (xy 194.31 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3523ecc-903c-4503-b28a-807f0c8fe23d")
 	)
 	(wire
 		(pts
@@ -4544,16 +4715,6 @@
 			(type default)
 		)
 		(uuid "fe2fd2b0-43db-4850-9f16-ea324417df10")
-	)
-	(wire
-		(pts
-			(xy 214.63 104.14) (xy 214.63 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe327233-f68f-4a73-be8b-d7720a6a78f6")
 	)
 	(label "vbat"
 		(at 135.89 74.93 0)
@@ -5219,7 +5380,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Axial_L11.0mm_D8.0mm_P15.00mm_Horizontal"
 			(at 111.4552 182.88 0)
 			(effects
 				(font
@@ -5293,7 +5454,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 213.36 101.6 0)
 			(effects
 				(font
@@ -5383,7 +5544,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 220.98 77.47 0)
 			(effects
 				(font
@@ -5430,6 +5591,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 200.66 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0dbc73a6-b68c-49ef-9ac4-ebe2fb71e09e")
+		(property "Reference" "H1"
+			(at 203.2 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 203.2 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D3.80mm_Drill2.8mm"
+			(at 200.66 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 200.66 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/ae3b6526-e4df-4a2d-b299-c7e6cebe54bc/588ded55-52a0-4bc9-9652-ad33aec8c8b6"
+					(reference "H2")
+					(unit 1)
+				)
+				(path "/ae3b6526-e4df-4a2d-b299-c7e6cebe54bc/c5847497-dad8-47f0-9650-0b259deda23a"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 207.01 55.88 0)
 		(unit 1)
@@ -5455,7 +5684,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 207.01 50.8 0)
 			(effects
 				(font
@@ -5527,7 +5756,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 237.49 63.5 0)
 			(effects
 				(font
@@ -5599,7 +5828,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 223.52 35.56 0)
 			(effects
 				(font
@@ -5673,7 +5902,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_A_Receptacle_GCT_USB1046"
 			(at 31.75 173.99 0)
 			(effects
 				(font
@@ -5756,7 +5985,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 260.35 73.66 0)
 			(effects
 				(font
@@ -5848,7 +6077,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "keeb:modified-XIAO-nRF52840-SMD"
 			(at 135.89 44.45 0)
 			(effects
 				(font
@@ -5980,7 +6209,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 257.81 35.56 0)
 			(effects
 				(font
@@ -6124,7 +6353,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 226.06 86.36 0)
 			(effects
 				(font
@@ -6214,7 +6443,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 207.01 35.56 0)
 			(effects
 				(font
@@ -6358,7 +6587,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D4.0mm"
 			(at 69.85 34.29 0)
 			(effects
 				(font
@@ -6567,7 +6796,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 237.49 77.47 0)
 			(effects
 				(font
@@ -6641,7 +6870,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 212.09 73.66 0)
 			(effects
 				(font
@@ -6733,7 +6962,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 245.11 44.45 0)
 			(effects
 				(font
@@ -6823,7 +7052,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 187.96 50.8 0)
 			(effects
 				(font
@@ -6897,7 +7126,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 242.57 86.36 0)
 			(effects
 				(font
@@ -6987,7 +7216,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 238.76 48.26 0)
 			(effects
 				(font
@@ -7061,7 +7290,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 212.09 59.69 0)
 			(effects
 				(font
@@ -7222,7 +7451,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 187.96 36.83 0)
 			(effects
 				(font
@@ -7269,6 +7498,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 200.66 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55f60107-e842-42dc-90a0-eda665c3cea9")
+		(property "Reference" "H7"
+			(at 203.2 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 203.2 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D3.80mm_Drill2.8mm"
+			(at 200.66 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 200.66 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "keeb"
+				(path "/ae3b6526-e4df-4a2d-b299-c7e6cebe54bc/588ded55-52a0-4bc9-9652-ad33aec8c8b6"
+					(reference "H8")
+					(unit 1)
+				)
+				(path "/ae3b6526-e4df-4a2d-b299-c7e6cebe54bc/c5847497-dad8-47f0-9650-0b259deda23a"
+					(reference "H7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:USB_A")
 		(at 63.5 177.8 90)
 		(unit 1)
@@ -7296,7 +7593,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_A_Receptacle_GCT_USB1046"
 			(at 64.77 173.99 0)
 			(effects
 				(font
@@ -7379,7 +7676,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 193.04 87.63 0)
 			(effects
 				(font
@@ -7469,7 +7766,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Axial_L11.0mm_D8.0mm_P15.00mm_Horizontal"
 			(at 177.8 127.3048 0)
 			(effects
 				(font
@@ -7541,7 +7838,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 240.03 91.44 0)
 			(effects
 				(font
@@ -7588,6 +7885,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 241.3 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6abb85ba-a882-46c6-94d4-e1951502d7fd")
+		(property "Reference" "H11"
+			(at 243.84 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 243.84 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "keeb:mouse-bite-5mm-slot"
+			(at 241.3 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 241.3 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "keeb"
+				(path "/ae3b6526-e4df-4a2d-b299-c7e6cebe54bc/588ded55-52a0-4bc9-9652-ad33aec8c8b6"
+					(reference "H12")
+					(unit 1)
+				)
+				(path "/ae3b6526-e4df-4a2d-b299-c7e6cebe54bc/c5847497-dad8-47f0-9650-0b259deda23a"
+					(reference "H11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 207.01 83.82 0)
 		(unit 1)
@@ -7613,7 +7978,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 207.01 78.74 0)
 			(effects
 				(font
@@ -7654,6 +8019,74 @@
 				)
 				(path "/ae3b6526-e4df-4a2d-b299-c7e6cebe54bc/c5847497-dad8-47f0-9650-0b259deda23a"
 					(reference "SW11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 200.66 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74c70fe2-e237-4e3e-91c6-7e7e3e4ab4bd")
+		(property "Reference" "H5"
+			(at 203.2 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 203.2 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D3.80mm_Drill2.8mm"
+			(at 200.66 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 200.66 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "keeb"
+				(path "/ae3b6526-e4df-4a2d-b299-c7e6cebe54bc/588ded55-52a0-4bc9-9652-ad33aec8c8b6"
+					(reference "H6")
+					(unit 1)
+				)
+				(path "/ae3b6526-e4df-4a2d-b299-c7e6cebe54bc/c5847497-dad8-47f0-9650-0b259deda23a"
+					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -7755,7 +8188,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 254 91.44 0)
 			(effects
 				(font
@@ -7897,7 +8330,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 254 77.47 0)
 			(effects
 				(font
@@ -7971,7 +8404,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 212.09 87.63 0)
 			(effects
 				(font
@@ -8131,7 +8564,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 256.54 48.26 0)
 			(effects
 				(font
@@ -8205,7 +8638,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 227.33 72.39 0)
 			(effects
 				(font
@@ -8295,7 +8728,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 223.52 48.26 0)
 			(effects
 				(font
@@ -8369,7 +8802,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 242.57 72.39 0)
 			(effects
 				(font
@@ -8434,6 +8867,142 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 241.3 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ce71c52-7232-41d5-864f-1a281ca652cf")
+		(property "Reference" "H13"
+			(at 243.84 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 243.84 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "keeb:mouse-bite-5mm-slot"
+			(at 241.3 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 241.3 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "keeb"
+				(path "/ae3b6526-e4df-4a2d-b299-c7e6cebe54bc/588ded55-52a0-4bc9-9652-ad33aec8c8b6"
+					(reference "H14")
+					(unit 1)
+				)
+				(path "/ae3b6526-e4df-4a2d-b299-c7e6cebe54bc/c5847497-dad8-47f0-9650-0b259deda23a"
+					(reference "H13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 241.3 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2fdd10b-0626-46d9-9a45-6ee76a5ba317")
+		(property "Reference" "H9"
+			(at 243.84 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 243.84 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "keeb:mouse-bite-5mm-slot"
+			(at 241.3 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 241.3 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "keeb"
+				(path "/ae3b6526-e4df-4a2d-b299-c7e6cebe54bc/588ded55-52a0-4bc9-9652-ad33aec8c8b6"
+					(reference "H10")
+					(unit 1)
+				)
+				(path "/ae3b6526-e4df-4a2d-b299-c7e6cebe54bc/c5847497-dad8-47f0-9650-0b259deda23a"
+					(reference "H9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "2025-10-04_17-12-30:USB2512-AEZG")
 		(at 22.86 107.95 0)
 		(unit 1)
@@ -8459,7 +9028,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN36_6X6MC_MCH"
+		(property "Footprint" "USB2512_AEZG:QFN36_6X6MC_MCH"
 			(at 22.86 107.95 0)
 			(effects
 				(font
@@ -8638,7 +9207,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 187.96 92.71 0)
 			(effects
 				(font
@@ -8710,7 +9279,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 222.25 63.5 0)
 			(effects
 				(font
@@ -8784,7 +9353,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Axial_L11.0mm_D8.0mm_P15.00mm_Horizontal"
 			(at 100.0252 182.88 0)
 			(effects
 				(font
@@ -8858,7 +9427,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D4.0mm"
 			(at 68.58 21.59 0)
 			(effects
 				(font
@@ -8999,7 +9568,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 259.08 100.33 0)
 			(effects
 				(font
@@ -9091,7 +9660,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 245.11 100.33 0)
 			(effects
 				(font
@@ -9181,7 +9750,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 240.03 35.56 0)
 			(effects
 				(font
@@ -9255,7 +9824,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 228.6 57.15 0)
 			(effects
 				(font
@@ -9347,7 +9916,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 193.04 45.72 0)
 			(effects
 				(font
@@ -9482,6 +10051,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 200.66 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cab4ce43-2ff9-45b3-9057-0da524198940")
+		(property "Reference" "H3"
+			(at 203.2 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 203.2 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D3.80mm_Drill2.8mm"
+			(at 200.66 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 200.66 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "keeb"
+				(path "/ae3b6526-e4df-4a2d-b299-c7e6cebe54bc/588ded55-52a0-4bc9-9652-ad33aec8c8b6"
+					(reference "H4")
+					(unit 1)
+				)
+				(path "/ae3b6526-e4df-4a2d-b299-c7e6cebe54bc/c5847497-dad8-47f0-9650-0b259deda23a"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 220.98 96.52 0)
 		(unit 1)
@@ -9507,7 +10144,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 220.98 91.44 0)
 			(effects
 				(font
@@ -9581,7 +10218,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 228.6 44.45 0)
 			(effects
 				(font
@@ -9671,7 +10308,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 187.96 64.77 0)
 			(effects
 				(font
@@ -9742,7 +10379,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 208.28 92.71 0)
 			(effects
 				(font
@@ -9814,7 +10451,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 255.27 64.77 0)
 			(effects
 				(font
@@ -9888,7 +10525,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 261.62 57.15 0)
 			(effects
 				(font
@@ -9980,7 +10617,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 212.09 44.45 0)
 			(effects
 				(font
@@ -10070,9 +10707,10 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 193.04 101.6 0)
 			(effects
 				(font
@@ -10164,7 +10802,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 193.04 59.69 0)
 			(effects
 				(font
@@ -10253,7 +10891,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 187.96 78.74 0)
 			(effects
 				(font
@@ -10325,7 +10963,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Plug_Molex_105444"
 			(at 46.99 58.42 0)
 			(effects
 				(font
@@ -10502,7 +11140,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
 			(at 107.95 34.29 0)
 			(effects
 				(font
@@ -10573,7 +11211,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
 			(at 107.95 22.86 0)
 			(effects
 				(font
@@ -10642,7 +11280,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 207.01 64.77 0)
 			(effects
 				(font
@@ -10715,7 +11353,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 243.84 55.88 0)
 			(effects
 				(font
@@ -10807,7 +11445,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 226.06 100.33 0)
 			(effects
 				(font
@@ -10899,7 +11537,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 262.89 44.45 0)
 			(effects
 				(font
@@ -10991,7 +11629,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 259.08 86.36 0)
 			(effects
 				(font
@@ -11083,7 +11721,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 193.04 73.66 0)
 			(effects
 				(font
