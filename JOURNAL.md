@@ -10,11 +10,20 @@ This is my journal of the design and building process of **split keeb!**.
 You can view this journal in more detail on **Hack Club Blueprint** [here](https://blueprint.hackclub.com/projects/107).
 
 
-## 10/4/2025 - finished the schematic  
+## 10/4/2025 5 PM - finished the schematic  
 
 ![image.png](https://blueprint.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzM5LCJwdXIiOiJibG9iX2lkIn19--421bb53f06080beaa43b5df7d3e8110299eba26c/image.png)
 ![image.png](https://blueprint.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzQwLCJwdXIiOiJibG9iX2lkIn19--8d02e12d96ff1bd974cedaeaf90bf05bf13815ea/image.png)
 Set up the project, added the key matrix and seedstudio, and got them added to the schematic [1hr]
 Researched how to make a USB hub, how the USB protocol worked, chose [this](https://www.microchip.com/en-us/product/USB2512) IC, added a USB-C upstream, and two USB-A downstream [1hr 45min]
 Had a lot of fun starting a larger project: my only other real experience with PCBs was the Macropad from Highway (which was also fun). I'm now looking to work on routing, then CAD  
+
+## 10/4/2025 6 PM - assigned footprints, fixed electrical rules checker errors  
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzQzLCJwdXIiOiJibG9iX2lkIn19--5b7187ca1be7610b04fd1b8a28005d0036b2e6d9/image.png)
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzQ0LCJwdXIiOiJibG9iX2lkIn19--aeab47944c31b7bb3669668964a8b2b1368d3049/image.png)
+I fixed the ERC errors by adding no connect flags to the unused pins, I assigned the footprints for all the components, and initialized the PCB with all the components. I also forgot to add the mounting holes and mousebites to the last commit, so I added those as well. Next commit will be routing all the components, then full CAD, then firmware (looking to use KMK as that's what I used for the Macropad)
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzQ1LCJwdXIiOiJibG9iX2lkIn19--3a3362d52c14064c8b5ee036d97afc7efa4371ea/image.png)
+Note: Game of Thrones OST is great for PCB work :), Celeste is good too (used that last commit)
+ps. I always include the Windows Stopwatch screenshot as proof of how long I spent working on each commit  
 
