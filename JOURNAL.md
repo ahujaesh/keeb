@@ -27,3 +27,12 @@ I fixed the ERC errors by adding no connect flags to the unused pins, I assigned
 Note: Game of Thrones OST is great for PCB work :), Celeste is good too (used that last commit)
 ps. I always include the Windows Stopwatch screenshot as proof of how long I spent working on each commit  
 
+## 10/4/2025 10 PM - worked on routing the pcb  
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDMwLCJwdXIiOiJibG9iX2lkIn19--777b64de8e15c5b4af84a0c2e3dec0e2954f72dd/image.png)
+This took much longer than I expected, but it was lots of fun. I started by organising all the components on the PCB, which took about an hour on its own. I then routed the processors on top for about an hour, and, lastly, routed the keys for the last hour. All I have left to route are the ~20 traces going between the halves of the board. I'm quite happy I was able to keep this to two layers. I thought I'd have to bump it up to three for the areas around the USB hub's IC. It's messy, but I think it'll work
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDMxLCJwdXIiOiJibG9iX2lkIn19--cf6fde068f1937df3a44be3c0822e7ccc7c733f5/image.png)
+ P.S. Skyward Sword music is great too
+can't wait to type on the new keeb
+  
+
