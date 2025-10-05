@@ -36,3 +36,12 @@ This took much longer than I expected, but it was lots of fun. I started by orga
 can't wait to type on the new keeb
   
 
+## 10/5/2025 - finished routing, added the back Silkscreen, fixed DRC  
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTg5LCJwdXIiOiJibG9iX2lkIn19--1173dc38acde3b0dfde7d2d5e4572d683b905760/image.png)
+I finished the leftover routing, added some images to the back silkscreen, and went through the DRC errors. There are still some problems with the USB-C port's clearance, but otherwise, the PCB is almost done. I'll try to get the Cad and FW done this week so I can wrap up and submit on Sat. PCB way says ~54$ for the pcb.
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTkyLCJwdXIiOiJibG9iX2lkIn19--f060d3e4b77980509f2554a2147d32161224fa9f/image.png)
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTkzLCJwdXIiOiJibG9iX2lkIn19--5742b3cceed01a7dd9e0ba4cb5b0f670f995805f/image.png)
+
+  
+
