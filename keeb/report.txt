@@ -1,0 +1,12 @@
+Plotted to 'C:\Users\eshaa\Downloads\keeb\keeb-F_Cu.gbr'.
+Plotted to 'C:\Users\eshaa\Downloads\keeb\keeb-B_Cu.gbr'.
+Plotted to 'C:\Users\eshaa\Downloads\keeb\keeb-F_Paste.gbr'.
+Plotted to 'C:\Users\eshaa\Downloads\keeb\keeb-B_Paste.gbr'.
+Plotted to 'C:\Users\eshaa\Downloads\keeb\keeb-F_Silkscreen.gbr'.
+Plotted to 'C:\Users\eshaa\Downloads\keeb\keeb-B_Silkscreen.gbr'.
+Plotted to 'C:\Users\eshaa\Downloads\keeb\keeb-F_Mask.gbr'.
+Plotted to 'C:\Users\eshaa\Downloads\keeb\keeb-B_Mask.gbr'.
+Plotted to 'C:\Users\eshaa\Downloads\keeb\keeb-Edge_Cuts.gbr'.
+Created Gerber job file 'C:\Users\eshaa\Downloads\keeb\keeb-job.gbrjob'.
+Info: Done.
+Info: Done.
