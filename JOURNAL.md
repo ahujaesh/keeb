@@ -45,3 +45,9 @@ I finished the leftover routing, added some images to the back silkscreen, and w
 
   
 
+## 10/7/2025 - fixed pcb errors  
+
+PCBway sent some feedback on the PCB, so I went ahead and incorporated that into the design
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTgxLCJwdXIiOiJibG9iX2lkIn19--651884759936a08b3cdc7133112d931b45cab104/image.png)
+They wanted me to move the USBC pads further from the edge of the board and to check the clearances between the pads of the IC. I've made changes and resent the Gerbers. I'll finish up the programming and CAD, then submit :)  
+
