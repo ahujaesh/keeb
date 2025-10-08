@@ -51,3 +51,16 @@ PCBway sent some feedback on the PCB, so I went ahead and incorporated that into
 ![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTgxLCJwdXIiOiJibG9iX2lkIn19--651884759936a08b3cdc7133112d931b45cab104/image.png)
 They wanted me to move the USBC pads further from the edge of the board and to check the clearances between the pads of the IC. I've made changes and resent the Gerbers. I'll finish up the programming and CAD, then submit :)  
 
+## 10/8/2025 - worked on CAD for the case  
+
+this took way too long lmao
+I worked on this throughout the school day (thanks to my Spanish/bio teachers, the goat)
+Added a cool design to the top, picked switches, 5 degree slope, and make it look cool
+Also, onshape bugged out when I imported my PCB bc for some reason, each copper trace was its own object [insert crying emoji here]
+played Silksong OST while working today :)
+This is the top plate:
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTEzMSwicHVyIjoiYmxvYl9pZCJ9fQ==--be70d76228e8142ec8fecd1f5ec96fe625095dfe/image.png)
+this is the full cad
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTEzNSwicHVyIjoiYmxvYl9pZCJ9fQ==--13488878b17e89b3f650997acd8ff9c20a460d65/image.png)
+This is the timer lmao![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTEzNCwicHVyIjoiYmxvYl9pZCJ9fQ==--1f43bceb70dcef710967ca6754f88135e2666c68/image.png)  
+
