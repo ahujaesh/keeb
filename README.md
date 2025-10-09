@@ -27,6 +27,6 @@ This keyboard has a 5x5 matrix on both sides, positioned at a comfortable 27 deg
 
 Finally, it has a built in haptic motor soldered onto the pcb to provide a better typing experience :) I couldnt find a cad model but its a really small motor that sits under the USBA ports and gets attached to the test points on the side of the seed studio
 
-Note: switches are soldered on, I am printing the top and bottom plate, as well as the keycaps. for more info, see the [BOM](/BOM.csv)
+Note: switches are soldered on, I am printing the top and bottom plate, as well as the keycaps. for more info, see the [BOM](/bom.csv)
 
 I had a lot of fun playing with splines etc whilst doing this project! Thanks hack club for the opportunity
