@@ -80,3 +80,13 @@ I went ahead and wrote the README, including links to the CAD models, PCBs, etc.
 ![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTE0NCwicHVyIjoiYmxvYl9pZCJ9fQ==--c05ae0f9c5afbdabfeb78a0160c7624d7f0117d3/image.png)
   
 
+## 10/9/2025 1 PM - finished BOM and wrapped up project  
+
+I went through and reviewed the pcb, reread the FW, and found all my parts on aliexpress, and wrote the final BOM. The PCBWAY quote was also approved.
+aliexpress screenshot with everything:![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTIyMCwicHVyIjoiYmxvYl9pZCJ9fQ==--c511fc1ba4789b9a046201a9cfcb6ca0cc29f233/image.png)
+
+Total is under 100!
+(the pcb was verry expensive so i opted to 3d print keycaps and self source some parts from things i already had to reduce cost)
+
+  
+
