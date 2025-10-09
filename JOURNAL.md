@@ -64,3 +64,19 @@ this is the full cad
 ![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTEzNSwicHVyIjoiYmxvYl9pZCJ9fQ==--13488878b17e89b3f650997acd8ff9c20a460d65/image.png)
 This is the timer lmao![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTEzNCwicHVyIjoiYmxvYl9pZCJ9fQ==--1f43bceb70dcef710967ca6754f88135e2666c68/image.png)  
 
+## 10/9/2025 12 AM - firmware :)  
+
+The firmware went a lot faster this time, now that I have experience from my Macropad, but the longest time will be debugging this thing once it arrives (that took so long on the Macropad)
+I made two files, left and right.py, in KMK that I can flash to the two seed studios
+Each file has a hardcoded map from the rows/collumns to the keys
+Also found a missing via in the PCB while looking at it, so I fixed that lmao
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTE0MCwicHVyIjoiYmxvYl9pZCJ9fQ==--2ef5c9fbbc9e2e736e19a7f9631d5389b1327f06/image.png)
+  
+
+## 10/9/2025 1 AM - wrote the readme and organised the files  
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTE0MywicHVyIjoiYmxvYl9pZCJ9fQ==--103774b51cc69808d8fbdc18cbd7ec90bf062b0b/image.png)
+I went ahead and wrote the README, including links to the CAD models, PCBs, etc., alongside a description of what's special about this keyboard and how the firmware works (KMK). Short devlog today. Listened to music from FF and Ori and the Will of the Wisps :)
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTE0NCwicHVyIjoiYmxvYl9pZCJ9fQ==--c05ae0f9c5afbdabfeb78a0160c7624d7f0117d3/image.png)
+  
+
