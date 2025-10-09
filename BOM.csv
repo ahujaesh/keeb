@@ -1,0 +1,13 @@
+name,costs (USD),notes
+pcb,54.73,see screenshot in readme
+motors,0,for haptics and self sourced (i already have some)
+seed studio xiao x2 (one per side), 1.7, see readme for screenshots from aliexpress
+keycaps, 0, 3d printed by me
+switches, 25, $5 per 10 = 25 for 50 keycaps; amazon
+capacitors, 0, self sourced (I already have them)
+diodes,5.97,aliexpress shipping is expensive
+usb2512aezg chip,7,to power the usb hub; see screenshot in readme; sourced from aliexpress
+usba port x4,1,see screenshot in readme; sourced from aliexpress
+usbc port x2,1,aliexpress
+3d printed parts,0,I'm printing everything myself
+TOTAL,96.4 USD,thank you!

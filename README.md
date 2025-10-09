@@ -9,6 +9,11 @@ CAD ([STEP file of assembly](/final_assembly.step), [top plate](/Top%20plate.ste
 ![1759973436815](image/README/1759973436815.png)
 ![1759973455129](image/README/1759973455129.png)
 Firmware [[left](/left.py), [right](/right.py)]: KMK (python), two files, one per board. Key matrix and one layer (for now, once i get the keeb i might add one more for funzies)
+Aliexpress screenshot ![1759979334769](image/README/1759979334769.png)
+![1759979629530](image/README/1759979629530.png)
+![1760016525654](image/README/1760016525654.png)
+aliexpress screenshot with everything: ![1760016716216](image/README/1760016716216.png)
+amazon switches screenshot
 
 All for the low price of 54.73 USD :crying emoji:
 ![pcbway quote](<Screenshot 2025-10-05 123428.png>)
