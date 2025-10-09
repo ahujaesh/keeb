@@ -64,3 +64,12 @@ this is the full cad
 ![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTEzNSwicHVyIjoiYmxvYl9pZCJ9fQ==--13488878b17e89b3f650997acd8ff9c20a460d65/image.png)
 This is the timer lmao![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTEzNCwicHVyIjoiYmxvYl9pZCJ9fQ==--1f43bceb70dcef710967ca6754f88135e2666c68/image.png)  
 
+## 10/9/2025 - firmware :)  
+
+The firmware went a lot faster this time, now that I have experience from my Macropad, but the longest time will be debugging this thing once it arrives (that took so long on the Macropad)
+I made two files, left and right.py, in KMK that I can flash to the two seed studios
+Each file has a hardcoded map from the rows/collumns to the keys
+Also found a missing via in the PCB while looking at it, so I fixed that lmao
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTE0MCwicHVyIjoiYmxvYl9pZCJ9fQ==--2ef5c9fbbc9e2e736e19a7f9631d5389b1327f06/image.png)
+  
+
